@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/menu_item_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/m1"
+        android:title="Facebook"
+        android:icon="@drawable/facebook"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/m2"
+        android:title="LinkedIn"
+        android:icon="@drawable/linkedin"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/m3"
+        android:title="Google"
+        android:icon="@drawable/google"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/m4"
+        android:title="Twitter"
+        android:icon="@drawable/twitter"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
